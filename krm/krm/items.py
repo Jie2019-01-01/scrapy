@@ -11,12 +11,16 @@ import scrapy
 class KrmItem(scrapy.Item):
     dict_data = scrapy.Field()
     dict_data['title'] = {}
+    dict_data['project_name'] = {}
     dict_data['program'] = {}
     dict_data['detail_url'] = {}
     dict_data['project_number'] = {}
-    dict_data['year'] = {}
-    dict_data['period'] = {}
-    dict_data['leader'] = {}
-    dict_data['organization'] = {}
-    dict_data['project_condition'] = {}
+    dict_data['year_selected'] = {}
+    dict_data['research_period'] = {}
+    dict_data['chief_of_research'] = {}
+    dict_data['cooperation_researcher'] = {}
+    dict_data['executing_organization'] = {}
+    dict_data['research_executing_organization'] = {}
+    dict_data['the_present_condition_of_project'] = {}
     dict_data['page'] = {}
+    dict_data['abstract'] = {}

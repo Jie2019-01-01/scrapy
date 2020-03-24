@@ -67,6 +67,11 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
    'krm.pipelines.MysqlPipeline': 300,
 }
+MYSQL_HOST = '127.0.0.1'
+MYSQL_DATABASE = 'liming'
+MYSQL_PORT = 3306
+MYSQL_USERNAME = 'root'
+MYSQL_PASSWORD = 'root'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
